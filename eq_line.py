@@ -2,6 +2,8 @@ from tkinter import *
 import matplotlib.pyplot as plt
 import numpy as np
 
+#Vamos con llaves
+
 root=Tk()
 root.title('Calc. Equ')
 root.configure(bg="gray69")

@@ -1,4 +1,4 @@
-#Nuevos
+#Nueva version git llaves
 import pandas as pd
 #url='https://archive.ics.uci.edu/ml/machine-learning-databases/abalone/abalone.data'
 url='https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data'
