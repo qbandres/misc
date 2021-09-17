@@ -3,6 +3,8 @@ import cv2 as cv
 import sys
 import math
 
+#llaves desde windows
+
 """
 The following rotate function is only included for reference and is not called.
 This shows how the recursion works, but does not provide any sort of interesting animation.

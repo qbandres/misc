@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 #Vamos con llaves
+#ahora desde windows
 
 root=Tk()
 root.title('Calc. Equ')
