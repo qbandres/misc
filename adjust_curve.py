@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 from scipy.optimize import curve_fit
+#from mac
 
 df=pd.read_excel(r'C:\Users\qband\Documents\QBANDRES\MACHINE LEARNING\PYCHARM\PYTHON\Data analisis BB\data.xlsx',"bambas")
 
