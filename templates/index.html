@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width="device-width", initial-scale=1.0">
+    <title>App_letters</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+    <h1>Apps to words</h1>
+    <div>
+        <h3>Invert Word</h3>
+        <form action='/invert' method="post">
+            <input type="text" name='invert' placeholder="Enter your word">
+            <input type="submit"> {{invert_print}} {{code_invert}}
+        </form>
+    </div>
+    <div>
+        <h3>Mayusc Word</h3>
+        <form action='/letter' method="post">
+            <input type="text" name='letra' placeholder="Enter your word">
+            <input type="submit">
+            <caption>{{letras}}</caption>
+            <table>
+                <tr><th>Funcion</th><th>Salida</th><th>Code</th></tr>
+                <tr><td>Invert letter</td><td>{{invert}}</td><td>{{code_invert}}</td></tr>
+                <tr><td>All Capital letter</td><td>{{all_cap}}</td><td>{{code_all_cap}}</td></tr>
+                <tr><td>All min letter</td><td>{{all_min}}</td><td>{{code_all_min}}</td></tr>
+                <tr><td>First Capital letter</td><td>{{first_cap}}</td><td>{{code_first_cap}}</td></tr>
+                <tr><td>Select Letter</td><td>{{select_letter}}</td><td>{{code_select_letter}}</td></tr>
+                <tr><td>len Letter</td><td>{{len_letter}}</td><td>{{code_len_letter}}</td></tr>
+                <tr><td>without spaces star & end</td><td>{{wth_sp}}</td><td>{{code_wth_sp}}</td></tr>
+                <tr><td>without spaces all</td><td>{{wth_all_sp}}</td><td>{{code_wth_all_sp}}</td></tr>
+                <tr><td>replace o x a </td><td>{{replace}}</td><td>{{code_replace}}</td></tr>
+                <tr><td>Letters until 5 </td><td>{{until}}</td><td>{{code_until}}</td></tr>
+                <tr><td>from 1 to end pass 2</td><td>{{m_ex}}</td><td>{{code_m_ex}}</td></tr>
+                <tr><td>from 1 to end pass 3 other methods</td><td>{{m_exf}}</td><td>{{code_m_exf}}</td></tr>
+            </table>
+                
+        </form>
+    </div>
+</body>
+</html>
