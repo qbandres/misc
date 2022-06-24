@@ -1,1 +1,4 @@
-/venv
+*venv/
+*.xlsx
+*.mp4
+*.png
