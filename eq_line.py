@@ -2,8 +2,7 @@ from tkinter import *
 import matplotlib.pyplot as plt
 import numpy as np
 
-#Vamos con llaves
-#ahora desde windows
+#modificando desde windows septiembre 2022
 
 root=Tk()
 root.title('Calc. Equ')
