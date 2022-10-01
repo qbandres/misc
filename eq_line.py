@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 #modificando desde windows septiembre 2022
-
+#Agregando modificacion desde Mac
 root=Tk()
 root.title('Calc. Equ')
 root.configure(bg="gray69")
