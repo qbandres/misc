@@ -4,6 +4,8 @@ import numpy as np
 
 #modificando desde windows septiembre 2022
 #Agregando modificacion desde Mac
+#agregado desde Linux Octubre 2022
+
 root=Tk()
 root.title('Calc. Equ')
 root.configure(bg="gray69")
